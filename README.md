@@ -1,9 +1,7 @@
 # Week8Assignment
 answers.sql
--- Retrieve check number, payment date, and amount from payments table
 SELECT checkNumber, paymentDate, amount
 FROM payments;
-
 -- Get order dates, required dates, and status for 'In Process' orders
 -- Sorted by order date (newest first)
 SELECT orderDate, requiredDate, status
